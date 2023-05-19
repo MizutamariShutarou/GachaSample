@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 4092117304
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4ba53eada65392424f8fcfc7e7ffeb54
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c29c357128feff56790ec9816c4fc93d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FantasyIconsPackFree/Icons/Bow/RedwoodBow.png
+- Assets/FantasyIconsPackFree/Icons/Bow/MarauderBow.png
+- Assets/FantasyIconsPackFree/Icons/Bow/WyvernHornBow.png
+- Assets/FantasyIconsPackFree/Icons/Bow/VikingShortBow.png
+- Assets/FantasyIconsPackFree/Icons/Bow/HunterBow.png
+- Assets/FantasyIconsPackFree/Icons/Bow/BattleBow.png
+Dependencies: []
