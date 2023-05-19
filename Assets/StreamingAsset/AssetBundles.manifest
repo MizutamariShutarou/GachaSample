@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 444060276
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: gacha/armor
+      Dependencies: {}
+    Info_1:
+      Name: gacha/arrow
+      Dependencies: {}
+    Info_2:
+      Name: gacha/boots
+      Dependencies: {}
+    Info_3:
+      Name: gacha/bow
+      Dependencies: {}
+    Info_4:
+      Name: gacha/gloves
+      Dependencies: {}
+    Info_5:
+      Name: gacha/helmet
+      Dependencies: {}
+    Info_6:
+      Name: gacha/normalweapon
+      Dependencies: {}
+    Info_7:
+      Name: gacha/rareweapon
+      Dependencies: {}
