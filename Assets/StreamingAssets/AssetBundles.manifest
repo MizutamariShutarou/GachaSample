@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1694028953
+CRC: 2939598179
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -40,4 +40,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_12:
       Name: ui/gacha
+      Dependencies: {}
+    Info_13:
+      Name: ui/icon
       Dependencies: {}
