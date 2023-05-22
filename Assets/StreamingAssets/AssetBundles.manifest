@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 444060276
+CRC: 1694028953
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -25,4 +25,19 @@ AssetBundleManifest:
       Dependencies: {}
     Info_7:
       Name: gacha/rareweapon
+      Dependencies: {}
+    Info_8:
+      Name: background
+      Dependencies: {}
+    Info_9:
+      Name: ui/headline
+      Dependencies: {}
+    Info_10:
+      Name: ui/main
+      Dependencies: {}
+    Info_11:
+      Name: ui/home
+      Dependencies: {}
+    Info_12:
+      Name: ui/gacha
       Dependencies: {}
