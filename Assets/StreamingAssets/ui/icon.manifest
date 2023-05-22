@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3395973902
+CRC: 51783447
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: af0eb803f8ef18c162c2b457412c24bc
+    Hash: a64fa2f06bc5539bf5edb78a3263681b
   TypeTreeHash:
     serializedVersion: 2
     Hash: c21d61fe394c58399df3c6fb5c7c99b3
@@ -15,5 +15,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Alternative_Colors_1.png
+- Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_inventory_cursor_icons.png
+- Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_gameplay_icons_1.png
+- Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_gameplay_icons_4.png
 Dependencies: []
