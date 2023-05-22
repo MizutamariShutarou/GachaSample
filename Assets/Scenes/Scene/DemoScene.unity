@@ -636,6 +636,14 @@ MonoBehaviour:
   - {fileID: 1174250809}
   - {fileID: 1896884516}
   - {fileID: 2106133579}
+  _armorData:
+  - {fileID: 11400000, guid: 1b648ef164f43624da8e444aaadb49e7, type: 2}
+  - {fileID: 11400000, guid: feb27f933ab50e649bb85a8755dec224, type: 2}
+  - {fileID: 11400000, guid: 14def546b57e9904194e868321ca35b6, type: 2}
+  - {fileID: 11400000, guid: 2b5c8189b5a2ccc44999b07502a4caf5, type: 2}
+  - {fileID: 11400000, guid: 2be45f32dc20b7f428c83d84061d2324, type: 2}
+  - {fileID: 11400000, guid: 13b24fb538fd28d45aa0aea100a919e3, type: 2}
+  - {fileID: 11400000, guid: 131f634f0d1314b47b336117064e0952, type: 2}
 --- !u!4 &667846477
 Transform:
   m_ObjectHideFlags: 0
