@@ -11,13 +11,15 @@ public class LoadAssets : MonoBehaviour
     [SerializeField]
     private List<Image> _imageList = default;
 
-    AsstsBundles _assetsBundle;
+    AsstsBundles _assetsBundles = default;
 
+    [SerializeField]
+    List<ItemDataBase> _armorData = default;
     private void Start()
     {
-        _assetsBundle = new AsstsBundles();
+        _assetsBundles = new AsstsBundles();
 
-        if (_assetsBundle == null)
+        if (_assetsBundles == null)
         {
             Debug.Log("AssetBundleのロードに失敗しました");
 
@@ -31,15 +33,14 @@ public class LoadAssets : MonoBehaviour
         {
             for (int i = 0; i < 10; i++)
             {
-                var randomNom = Random.Range(0, Armor._armorList.Count - 1);
-                
-                var sprite = _assetsBundle.Armor.LoadAsset<Sprite>(Armor._armorList[randomNom]);
+                var randomNom = Random.Range(0, _armorData.Count);
 
-                Debug.Log(Armor._armorList[randomNom]);
+                var sprite = _assetsBundles.Armor.LoadAsset<Sprite>(_armorData[randomNom]._itemName);
+
                 _imageList[i].sprite = sprite;
                 await UniTask.DelayFrame(200);
             }
-            _assetsBundle.Armor.Unload(false);
+            _assetsBundles.Armor.Unload(false);
         }
     }
 }
